@@ -23,7 +23,7 @@ takes as input json object and the loops through it's values. Then invokes the *
 
 
 ### validArray()
-takse as input array and loops through it's elements
+takes as input array and loops through it's elements
 Invokes **checkIfMatches** function for every element
 
 ### checkIfMatches()
@@ -35,6 +35,7 @@ If two previous scenarios were wrong check if the data type is an object -> call
 
 
 Thanks to recursion no field will be excluded from checking
+If any single asterix is found, program stops and returns false
 
 
 
